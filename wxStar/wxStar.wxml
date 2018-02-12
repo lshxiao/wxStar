@@ -1,0 +1,9 @@
+<template name="wxStar" >
+  <view class='wx-star-panel'>
+    <view class='wx-star' wx:for="{{wxStar}}" wx:for-item="starItem" wx:for-index="idx" wx:key="{{idx}}">
+      <view class='wx-half-star {{index==0?"wx-star-left":"wx-star-right"}} {{item==1?"wx-star-checked":""}}' wx:for="{{starItem}}" wx:key="{{index}}" bindtap='wxStarChange' data-index='{{index}}' data-idx='{{idx}}'>★</view>
+    </view>
+  </view>
+</template>
+
+

@@ -1,0 +1,18 @@
+@import "/wxStar/wxStar.wxss";
+
+/* button */
+.btn-panel{
+  display: flex;
+}
+
+.btn{
+  flex: 1;
+  background: #12b7f5;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  margin: 10rpx 30rpx;
+  font-size: 30rpx;
+  color: #fff;
+  border-radius: 10rpx;
+}

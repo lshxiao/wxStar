@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundColor":"#efeff4",
+    "navigationBarBackgroundColor": "#00a8f3",
+    "navigationBarTitleText": "wxStar 示例",
+    "navigationBarTextStyle":"white"
+  }
+}

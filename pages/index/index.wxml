@@ -1,0 +1,7 @@
+<import src="/wxStar/wxStar.wxml" />
+<template is="wxStar" data="{{wxStar: wxStar}}" />
+
+<view class='btn-panel'>
+  <button class='btn' bindtap='resetStar'>重置</button>
+  <button class='btn' bindtap='alertStar'>获取当前星数</button>
+</view>

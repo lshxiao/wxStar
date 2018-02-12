@@ -1,0 +1,26 @@
+/* wx-star */
+.wx-star-panel{
+  display: flex;
+}
+.wx-star{
+  position: relative;
+  flex: 1;
+  height: 80rpx;
+  margin: 10rpx;
+  color: #ccc;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 80rpx;
+}
+.wx-star-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 50%;
+  bottom: 0;
+  overflow: hidden;
+  text-indent: -50%;
+}
+.wx-star .wx-star-checked{
+  color: #FF9800;
+}
